@@ -73,7 +73,7 @@ git submodule update --init --recursive
 - Create a new project in UE4.25 and add a c class so that you can open it in visual studio 2019
 - Copy the folder Unreal\Plugins from AirSim folder and Paste it into the Project folder
 - Build the project in visual studio 2019
-- Then in the project directory, right click on MyProject.uproject and select GenerateProjectFiles
+- Then in the project directory, right click on MyProject.uproject and select generate visual studio files
 - Hopefully it finishes and then you open the project
 - Make the game mode: AirSimGameMode
 - Make sure you have the settings.json in Documents/AirSim directory.
