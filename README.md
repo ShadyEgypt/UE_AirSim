@@ -68,8 +68,9 @@ git submodule update --init --recursive
 - After that, open Visual Studio 2019 and Select Tools->Command Line->Developer Command Prompt
 - Go to AirSim directory and do
 ```
-./Build.cmd
+build.cmd
 ```
+
 - Create a new project in UE4.25 and add a c class so that you can open it in visual studio 2019
 - Copy the folder Unreal\Plugins from AirSim folder and Paste it into the Project folder
 - Build the project in visual studio 2019
@@ -80,3 +81,14 @@ git submodule update --init --recursive
 - Click Play in UE and you will find the the two vehicles
 ---
 
+Another way is to clone our branch of AirSim and build it immediately
+```
+git clone https://github.com/ShadyEgypt/AirSim_VR.git -b shady_waleed_branch
+```
+- After that, open Visual Studio 2019 and Select Tools->Command Line->Developer Command Prompt
+- Go to AirSim directory and do
+```
+build.cmd
+```
+You can get our project files from this link
+https://drive.google.com/file/d/1XNyEWTxfbY6CJIMHOiSYa4Up-k1Pgfh_/view?usp=sharing
